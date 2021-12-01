@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar class="rojo">
+    <ion-title>contrasena</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item class="ion-margin">
+    <ion-label position="floating">Usuario</ion-label>
+    <ion-input [(ngModel)]="mdl_usuario"></ion-input>
+  </ion-item>
+
+  <ion-item class="ion-margin">
+    <ion-label position="floating">Contraseña Actual</ion-label>
+    <ion-input [(ngModel)]="mdl_contrasenaActual"></ion-input>
+  </ion-item>
+
+  <ion-item class="ion-margin">
+    <ion-label position="floating">Contraseña Nueva</ion-label>
+    <ion-input [(ngModel)]="mdl_contrasenaNueva"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" class="ion-margin rojo" (click)="modificarContrasena()">
+    MODIFICAR CONTRASEÑA
+  </ion-button>
+</ion-content>

@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar class="rojo">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item class="ion-margin">
+    <ion-label position="floating">Usuario</ion-label>
+    <ion-input [(ngModel)]="mdl_usuario"></ion-input>
+  </ion-item>
+
+  <ion-item class="ion-margin">
+    <ion-label position="floating">Contrasena</ion-label>
+    <ion-input [(ngModel)]="mdl_contrasena"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" class="ion-margin rojo" (click)="login()">
+    INGRESAR
+  </ion-button>
+
+  <ion-button expand="block" class="ion-margin rojo" (click)="presentarFormularioIngreso()">
+    CREAR USUARIO
+  </ion-button>
+
+  <ion-button expand="block" class="ion-margin rojo" (click)="navegar()">
+    MODIFICAR CONTRASEÑA
+  </ion-button>
+</ion-content>
