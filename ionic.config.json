@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "Prueba3",
   "integrations": {},
+=======
+  "name": "prueba_3",
+  "integrations": {
+    "capacitor": {}
+  },
+>>>>>>> 280e37641e4f3d550a4f6e51ea31b43471f86101
   "type": "angular"
 }
